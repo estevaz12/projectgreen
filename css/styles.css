@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #002f33;
+  color: white;
+  padding: 35px;
+}
+
+h1, h2, h3, nav li, .btn a {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: #016771;
+  z-index: 10;
+}
+
+figure h2, figure p {
+  margin: 10px 0;
+}
+
+nav a {
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0 10%;
+}
+
+nav li {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav a:not(#about) {
+  margin-right: 8.70%;
+}
+
+nav a:hover li{
+  color: #FFD300;
+}
+
+nav a.current li{
+  color: #FFD300;
+}
+
+.banner-description {
+  background-color: #ccc;
+  position: absolute;
+  max-width: 25%;
+  padding: 15px;
+  left: 13%;
+  top: 15%;
+  z-index: 1;
+  background-color: rgb(204, 204, 204, 0.8);
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.description, .page-description {
+  letter-spacing: 0.08em;
+  line-height: 1.5em;
+}
+
+.description-img {
+  background-color: #FFD300;
+}
+
+.description-img, .img-description {
+  margin-bottom: 50px;
+}
+
+.description-img::after, .img-description::after, .multi-column::after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.img-description {
+  background-color: #92DF00;
+}
+
+.multi-column {
+  background-color: #FFD300;
+  margin-bottom: 50px;
+  padding: 2.50%;
+}
+
+.page-description {
+  margin: 50px 0;
+  text-align: center;
+}
+
+
+[class^='col'] {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+
+[class^='col'] figure {
+  display: inline-block;
+}
+
+[class^='col'] figure:hover {
+  background-color: #BA9A00;
+  color: #eeeeee;
+}
+
+[class^='col'] img {
+  width: 100%;
+  height: 177.575px;
+  object-fit: cover;
+}
+
+.btn a {
+  background-color: #92DF00;
+  border: 1px solid #92DF00;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.btn a:hover {
+  background-color: #71AD00;
+  color: #fff;
+}
+
+.banner img {
+  margin-top: 70px;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.banner-description h2, .description h1 {
+  margin-bottom: 5px;
+}
+
+.banner-description h2 {
+  margin-top: 5px;
+}
+
+.col-1-4 figure, .col-2-4 figure {
+  margin-right: 5%;
+}
+
+.col-3-4 figure {
+  margin-right: 2.5%;
+}
+
+.col-4-4 figure {
+  margin-left: 2.5%;
+  /* padding-left: 2.5%; */
+}
+
+.description-img img {
+  float: right;
+}
+
+.description-img img, .img-description img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.description-img .description, .img-description .description {
+  display: inline-block;
+  width: 50%;
+  padding: 5%;
+  padding-bottom: 0;
+}
+
+.img-description img {
+  float: left;
+}
+
+.nav-logo img {
+  vertical-align: middle;
+  width: 50px;
+}
