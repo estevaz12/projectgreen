@@ -23,3 +23,10 @@ I did this by following an analogous color scheme with three colors as the base.
 Green for land, blue for water, and yellow for air.
 
 Check the scheme here: http://paletton.com/#uid=52n0Y0kFJMblEMPrRLmKsu6KXnm
+
+
+References:
+https://climate.nasa.gov/
+https://www.ipcc.ch/about/
+https://www.nrdc.org/about
+https://www.metmuseum.org/
